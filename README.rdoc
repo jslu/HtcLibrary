@@ -1,28 +1,10 @@
-== README
+== HOW TO GET THIS UP AND RUNNING
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby/Rails version: 2.2.2 / 4.2.5 (rvm is recommended to manage this versioning)
 
-Things you may want to cover:
+* System dependencies: mongodb (can be installed using Homebrew under Mac by using command 'brew install mongodb')
 
-* Ruby version
+* Database initialization: run 'mongod run --config /usr/local/etc/mongod.conf &'
 
-* System dependencies
+* How to run it: issue command 'rails server' in the project directory, and then visit http://localhost:3000 using the browser.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
